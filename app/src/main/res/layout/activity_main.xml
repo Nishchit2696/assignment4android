@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btnLoadCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="office start date" />
+    <EditText
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnLoadTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="birthday date" />
+    <EditText
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <!--    For res-->
+    <TextView
+        android:id="@+id/tvJoinedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Date1"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="date2"
+        android:textSize="20sp" />
+</LinearLayout>
+
+
+
